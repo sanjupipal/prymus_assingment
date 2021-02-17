@@ -19,4 +19,4 @@ got to config -> config.json and change username and password
 
 5. /users will get all users
 6. /users/:department will get users of department
-7. /department will get count of all department
+7. /department will get users count of all department

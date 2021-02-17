@@ -30,7 +30,7 @@ app.get("/department", async (req, res) => {
       group: ["department"],
       attributes: [
         "department",
-        [sequelize.fn("COUNT", "department"), "departmentCount"],
+        [sequelize.fn("COUNT", "department"), "userCount"],
       ],
     });
     return res.json(users);
